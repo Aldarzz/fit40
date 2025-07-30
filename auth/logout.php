@@ -1,11 +1,8 @@
 <?php
-session_start();
-session_unset();
-session_destroy();
+require_once '../includes/auth.php';
 
-// Cookie'leri temizle
-setcookie("user_key", "", time() - 3600, "/");
-setcookie("admin_logged_in", "", time() - 3600, "/");
+// Kullanıcı çıkışı yap
+fit40_logout();
 
 // Ana sayfaya yönlendir
 header("Location: ../index.php");

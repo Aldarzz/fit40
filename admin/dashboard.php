@@ -5,62 +5,76 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
     exit;
 }
 
-include '../config/db.php';
+require_once '../config/db.php';
 
 // Hata raporlamayı etkinleştir
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Kullanıcı sayısı
-$stmt = $conn->query("SELECT COUNT(*) as count FROM users");
-if (!$stmt) {
-    die("Kullanıcı sayısı sorgusu başarısız: " . $conn->error);
-}
-$users = $stmt->fetch_assoc();
+try {
+    // Kullanıcı sayısı
+    $stmt = $conn->query("SELECT COUNT(*) as count FROM users");
+    if (!$stmt) {
+        throw new Exception("Kullanıcı sayısı sorgusu başarısız: " . $conn->error);
+    }
+    $users_result = $stmt->fetch_assoc();
+    $users_count = $users_result['count'];
 
-// Toplam tamamlanan gün
-$stmt = $conn->query("SELECT COUNT(*) as count FROM progress");
-if (!$stmt) {
-    die("Tamamlanan gün sorgusu başarısız: " . $conn->error);
-}
-$completed = $stmt->fetch_assoc();
+    // Toplam tamamlanan gün
+    $stmt = $conn->query("SELECT COUNT(*) as count FROM progress");
+    if (!$stmt) {
+        throw new Exception("Tamamlanan gün sorgusu başarısız: " . $conn->error);
+    }
+    $completed_result = $stmt->fetch_assoc();
+    $completed_count = $completed_result['count'];
 
-// Toplam todo
-$stmt = $conn->query("SELECT COUNT(*) as count FROM todos");
-if (!$stmt) {
-    die("Todo sorgusu başarısız: " . $conn->error);
-}
-$todos = $stmt->fetch_assoc();
+    // Toplam todo
+    $stmt = $conn->query("SELECT COUNT(*) as count FROM todos");
+    if (!$stmt) {
+        throw new Exception("Todo sorgusu başarısız: " . $conn->error);
+    }
+    $todos_result = $stmt->fetch_assoc();
+    $todos_count = $todos_result['count'];
 
-// Son 10 kullanıcı
-$stmt = $conn->query("SELECT id, google_id, email, name, photo_url, created_at FROM users ORDER BY id DESC LIMIT 10");
-if (!$stmt) {
-    die("Son kullanıcılar sorgusu başarısız: " . $conn->error);
-}
-$lastUsers = [];
-while ($row = $stmt->fetch_assoc()) {
-    $lastUsers[] = $row;
-}
+    // Son 10 kullanıcı
+    $stmt = $conn->query("SELECT google_id, email, name, photo_url, created_at FROM users ORDER BY created_at DESC LIMIT 10");
+    if (!$stmt) {
+        throw new Exception("Son kullanıcılar sorgusu başarısız: " . $conn->error);
+    }
+    $lastUsers = [];
+    while ($row = $stmt->fetch_assoc()) {
+        $lastUsers[] = $row;
+    }
 
-// Son 10 ilerleme
-$stmt = $conn->query("SELECT user_id, date, level FROM progress ORDER BY date DESC LIMIT 10");
-if (!$stmt) {
-    die("Son ilerleme sorgusu başarısız: " . $conn->error);
-}
-$lastProgress = [];
-while ($row = $stmt->fetch_assoc()) {
-    $lastProgress[] = $row;
-}
+    // Son 10 ilerleme
+    $stmt = $conn->query("SELECT user_id, date, level FROM progress ORDER BY date DESC LIMIT 10");
+    if (!$stmt) {
+        throw new Exception("Son ilerleme sorgusu başarısız: " . $conn->error);
+    }
+    $lastProgress = [];
+    while ($row = $stmt->fetch_assoc()) {
+        $lastProgress[] = $row;
+    }
 
-// Son 10 todo
-$stmt = $conn->query("SELECT user_id, text, completed, created_at FROM todos ORDER BY created_at DESC LIMIT 10");
-if (!$stmt) {
-    die("Son todo sorgusu başarısız: " . $conn->error);
-}
-$lastTodos = [];
-while ($row = $stmt->fetch_assoc()) {
-    $lastTodos[] = $row;
+    // Son 10 todo
+    $stmt = $conn->query("SELECT user_key, text, completed, created_at FROM todos ORDER BY created_at DESC LIMIT 10");
+    if (!$stmt) {
+        throw new Exception("Son todo sorgusu başarısız: " . $conn->error);
+    }
+    $lastTodos = [];
+    while ($row = $stmt->fetch_assoc()) {
+        $lastTodos[] = $row;
+    }
+    
+} catch (Exception $e) {
+    error_log('Admin Dashboard Error: ' . $e->getMessage());
+    $users_count = 0;
+    $completed_count = 0;
+    $todos_count = 0;
+    $lastUsers = [];
+    $lastProgress = [];
+    $lastTodos = [];
 }
 ?>
 
@@ -146,7 +160,7 @@ while ($row = $stmt->fetch_assoc()) {
         <div class="card stat-card">
           <div class="card-body">
             <h5 class="card-title text-muted">Toplam Kullanıcı</h5>
-            <div class="stat-value"><?= $users['count'] ?></div>
+            <div class="stat-value"><?= $users_count ?></div>
             <p class="card-text text-muted">Sistemde kayıtlı toplam kullanıcı sayısı</p>
           </div>
         </div>
@@ -155,7 +169,7 @@ while ($row = $stmt->fetch_assoc()) {
         <div class="card stat-card">
           <div class="card-body">
             <h5 class="card-title text-muted">Tamamlanan Gün</h5>
-            <div class="stat-value"><?= $completed['count'] ?></div>
+            <div class="stat-value"><?= $completed_count ?></div>
             <p class="card-text text-muted">Egzersiz yapılan toplam gün sayısı</p>
           </div>
         </div>
@@ -164,7 +178,7 @@ while ($row = $stmt->fetch_assoc()) {
         <div class="card stat-card">
           <div class="card-body">
             <h5 class="card-title text-muted">Yapılacaklar</h5>
-            <div class="stat-value"><?= $todos['count'] ?></div>
+            <div class="stat-value"><?= $todos_count ?></div>
             <p class="card-text text-muted">Toplam görev sayısı</p>
           </div>
         </div>
@@ -226,7 +240,7 @@ while ($row = $stmt->fetch_assoc()) {
             </div>
             <div class="d-flex justify-content-between mb-3">
               <span>Sunucu:</span>
-              <span class="badge bg-info"><?= $_SERVER['SERVER_SOFTWARE'] ?></span>
+              <span class="badge bg-info"><?= $_SERVER['SERVER_SOFTWARE'] ?? 'Unknown' ?></span>
             </div>
             <div class="d-flex justify-content-between">
               <span>SSL:</span>
@@ -289,7 +303,7 @@ while ($row = $stmt->fetch_assoc()) {
                   <tbody>
                     <?php foreach ($lastTodos as $todo): ?>
                     <tr>
-                      <td><?= substr($todo['user_id'], 0, 8) ?>...</td>
+                      <td><?= substr($todo['user_key'], 0, 8) ?>...</td>
                       <td><?= htmlspecialchars($todo['text']) ?></td>
                       <td>
                         <?php if ($todo['completed']): ?>
