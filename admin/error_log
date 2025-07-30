@@ -1,0 +1,71 @@
+[30-Jul-2025 08:18:14 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:20:30 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:22:30 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:26:24 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 24
+[30-Jul-2025 08:26:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 24
+[30-Jul-2025 08:26:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 24
+[30-Jul-2025 08:28:52 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 24
+[30-Jul-2025 08:36:19 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 24
+[30-Jul-2025 08:36:28 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 24
+[30-Jul-2025 08:36:30 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 24
+[30-Jul-2025 08:36:30 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 24
+[30-Jul-2025 08:36:30 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 24
+[30-Jul-2025 09:02:49 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 41
+[30-Jul-2025 09:03:04 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 41
+[30-Jul-2025 17:32:12 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 41
+[30-Jul-2025 17:47:49 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 50
+[30-Jul-2025 17:47:51 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 50
+[30-Jul-2025 17:47:52 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 50
+[30-Jul-2025 17:54:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 60
+[30-Jul-2025 17:54:10 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/admin/dashboard.php on line 60

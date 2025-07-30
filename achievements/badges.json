@@ -1,0 +1,16 @@
+[
+  {
+    "id": "first_step",
+    "title": "İlk Adım",
+    "description": "İlk egzersizini tamamladın!",
+    "icon": "achievements/icons/first-step.svg",
+    "condition_text": "first_workout"
+  },
+  {
+    "id": "streak_7",
+    "title": "7 Gün Sürekli",
+    "description": "7 gün üst üste egzersiz yaptın!",
+    "icon": "achievements/icons/fire.svg",
+    "condition_text": "streak:7"
+  }
+]

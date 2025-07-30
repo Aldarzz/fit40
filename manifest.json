@@ -1,0 +1,26 @@
+{
+  "name": "Fit40+",
+  "short_name": "Fit40+",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f0f8ff",
+  "theme_color": "#2c7bb6",
+  "description": "40+ yaş için aletsiz ev egzersizleri ve motivasyon uygulaması.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["health", "fitness"],
+  "dir": "ltr",
+  "lang": "tr-TR",
+  "scope": "/",
+  "orientation": "portrait-primary"
+}

@@ -1,0 +1,129 @@
+[30-Jul-2025 08:16:33 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:16:35 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:16:36 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:16:38 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:16:48 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:16:50 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:07 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:09 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:11 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:13 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:22 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:24 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:32 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:34 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:47 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:49 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:21:47 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:21:49 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:22:01 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:22:11 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:22:13 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:26:17 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:26:19 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:26:21 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/check.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/check.php on line 16
+[30-Jul-2025 08:28:29 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:28:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:28:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:28:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:28:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:28:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:28:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/check.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/check.php on line 16
+[30-Jul-2025 08:28:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:28:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/check.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/check.php on line 16
+[30-Jul-2025 08:29:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:29:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:29:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:29:34 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/check.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/check.php on line 16
+[30-Jul-2025 08:35:25 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:35:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/check.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/check.php on line 16
+[30-Jul-2025 08:36:04 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:36:05 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 08:36:07 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/check.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/check.php on line 16
+[30-Jul-2025 09:02:29 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 09:02:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/check.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/check.php on line 16
+[30-Jul-2025 09:02:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 09:02:42 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 09:02:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/load.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/load.php on line 13
+[30-Jul-2025 09:02:45 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/achievements/check.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/achievements/check.php on line 16

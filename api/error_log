@@ -1,0 +1,108 @@
+[30-Jul-2025 08:16:33 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:16:35 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:16:48 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:07 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:11 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:22 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:32 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:17:47 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:19:04 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:21:47 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:22:01 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:22:11 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 08:26:17 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:26:19 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:28:29 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:28:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:28:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:28:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:28:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:28:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:28:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:29:31 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:29:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:29:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:35:25 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:36:04 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 08:36:05 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 17
+[30-Jul-2025 09:02:41 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 25
+[30-Jul-2025 09:02:42 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 25
+[30-Jul-2025 09:02:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 25
+[30-Jul-2025 17:30:47 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 25
+[30-Jul-2025 17:32:49 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 25
+[30-Jul-2025 17:50:49 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 25
+[30-Jul-2025 17:51:03 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 25
+[30-Jul-2025 17:51:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 25
+[30-Jul-2025 18:08:58 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/api/load_progress.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/api/load_progress.php on line 25

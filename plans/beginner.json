@@ -1,0 +1,356 @@
+{
+  "level": "beginner",
+  "title": "Başlangıç Seviyesi",
+  "days": {
+    "monday": {
+      "title": "Pazartesi - Isınma ve Temel Hareketler",
+      "exercises": [
+        {
+          "name": "Isınma Yürüyüşü",
+          "duration": 180,
+          "reps": 0,
+          "gif": "walk.gif",
+          "instruction": "Yavaşça yerinde yürüyün, kollarınızı sallayın. Ayaklarınızı tamamen yerden kaldırmadan, topuklarınızla başlayarak ayağınızı ileriye doğru uzatın. 3 dakika boyunca bu hareketi yapın. Bu hareket, kaslarınızı ısıtmanıza ve kan dolaşımınızı artırmanıza yardımcı olur.",
+          "tips": [
+            "Sırtınızı dik tutun",
+            "Kollarınızı doğal bir hareketle sallayın",
+            "Nefesinizi düzenli tutun"
+          ]
+        },
+        {
+          "name": "Squat",
+          "duration": 0,
+          "reps": 8,
+          "sets": 2,
+          "gif": "squat.gif",
+          "instruction": "Dizler ayak hizasında, sırt düz tutun. Ayaklar omuz genişliğinde açık olsun. Yavaşça dizlerinizi bükerek kalçanızı aşağı indirin. Dizleriniz ayak parmaklarınızın hizasını geçmemeli. Kalçanız yere paralel olana kadar inin, sonra yavaşça yukarı kalkın. Bu hareketi 8 kez tekrarlayın.",
+          "tips": [
+            "Gözlerinizi ileriye doğru tutun",
+            "Kalçanızı geriye doğru itin",
+            "Ağırlığınızı topuklarınıza verin"
+          ]
+        },
+        {
+          "name": "Dinlenme",
+          "duration": 15,
+          "reps": 0,
+          "gif": "",
+          "instruction": "Nefes alın, gevşeyin.",
+          "break": true
+        },
+        {
+          "name": "Duvar Plank",
+          "duration": 20,
+          "reps": 0,
+          "sets": 2,
+          "gif": "plank.gif",
+          "instruction": "Eller duvarda, vücut düz. Karın kaslarınızı sıkın. Duvara yaslanın ve ellerinizi duvara koyun. Ayaklarınızı geriye doğru uzatın ve vücudunuzu düz bir çizgi halinde tutun. Karın kaslarınızı sıkın ve bu pozisyonu 20 saniye boyunca koruyun.",
+          "tips": [
+            "Sırtınızı düz tutun",
+            "Gözlerinizi duvara odaklayın",
+            "Nefesinizi düzenli tutun"
+          ]
+        },
+        {
+          "name": "Esnetme",
+          "duration": 180,
+          "reps": 0,
+          "gif": "stretch.gif",
+          "instruction": "Boyun, omuz ve belinizi yavaşça esnetin. Her yöne doğru hafifçe esnetme hareketleri yapın. Esneme hareketlerini 3 dakika boyunca sürdürün.",
+          "tips": [
+            "Yavaş hareket edin",
+            "Ağrılı hissettiğinizde durun",
+            "Nefesinizi esnemeyle uyumlu verin"
+          ]
+        }
+      ]
+    },
+    "tuesday": {
+      "title": "Salı - Denge ve Kol Hareketi",
+      "exercises": [
+        {
+          "name": "Isınma",
+          "duration": 180,
+          "reps": 0,
+          "gif": "walk.gif",
+          "instruction": "Yerinde yürüyün.",
+          "tips": [
+            "Sırtınızı dik tutun",
+            "Kollarınızı sallayın",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Kol Dalgası",
+          "duration": 0,
+          "reps": 15,
+          "sets": 2,
+          "instruction": "Kollarınızı öne ve yukarı sallayın. Sırtınızı düz tutun. Kollarınızı yavaşça öne doğru uzatın, sonra yukarı doğru kaldırın. Bu hareketi 15 kez tekrarlayın.",
+          "tips": [
+            "Hareket sırasında sırtınızı düz tutun",
+            "Kollarınızı tam uzatın",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Dinlenme",
+          "duration": 15,
+          "reps": 0,
+          "gif": "",
+          "instruction": "Nefes alın.",
+          "break": true
+        },
+        {
+          "name": "Tek Ayak Denge",
+          "duration": 20,
+          "reps": 0,
+          "sets": 2,
+          "instruction": "Duvara yaslanarak 20 saniye denge sağlayın. Diğer ayağınızı hafifçe yukarı kaldırın. Bu pozisyonu 20 saniye boyunca koruyun, sonra ayağınızı değiştirin.",
+          "tips": [
+            "Duvara hafifçe yaslanın",
+            "Gözlerinizi ileriye doğru tutun",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Esnetme",
+          "duration": 180,
+          "reps": 0,
+          "gif": "stretch.gif",
+          "instruction": "Omuzlarınızı ve belinizi esnetin.",
+          "tips": [
+            "Yavaş hareket edin",
+            "Ağrılı hissettiğinizde durun",
+            "Nefesinizi esnemeyle uyumlu verin"
+          ]
+        }
+      ]
+    },
+    "wednesday": {
+      "title": "Çarşamba - Bacak ve Kalça",
+      "exercises": [
+        {
+          "name": "Isınma",
+          "duration": 180,
+          "reps": 0,
+          "gif": "walk.gif",
+          "instruction": "Hızlı yürüyüş ile başlayın.",
+          "tips": [
+            "Sırtınızı dik tutun",
+            "Kollarınızı sallayın",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Yan Bacağa Kaldırma",
+          "duration": 0,
+          "reps": 10,
+          "sets": 2,
+          "instruction": "Yan pozisyonda durun ve bacağınızı yana doğru kaldırın. Kontrollü hareket edin. Her iki bacağınızı da 10 kez tekrarlayın.",
+          "tips": [
+            "Sırtınızı düz tutun",
+            "Hareketi yavaş yapın",
+            "Dengeyi koruyun"
+          ]
+        },
+        {
+          "name": "Dinlenme",
+          "duration": 15,
+          "reps": 0,
+          "gif": "",
+          "instruction": "Nefes alın.",
+          "break": true
+        },
+        {
+          "name": "Kalça Kaldırma",
+          "duration": 0,
+          "reps": 10,
+          "sets": 2,
+          "instruction": "Sırt üstü yatın ve kalçanızı yukarı kaldırın. Kaslarınızı sıkın. Bu hareketi 10 kez tekrarlayın.",
+          "tips": [
+            "Sırtınızı yere yapıştırın",
+            "Kalçanızı düz bir çizgide kaldırın",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Esnetme",
+          "duration": 180,
+          "reps": 0,
+          "gif": "stretch.gif",
+          "instruction": "Bacaklarınızı esnetin.",
+          "tips": [
+            "Yavaş hareket edin",
+            "Ağrılı hissettiğinizde durun",
+            "Nefesinizi esnemeyle uyumlu verin"
+          ]
+        }
+      ]
+    },
+    "thursday": {
+      "title": "Perşembe - Omuz ve Kol",
+      "exercises": [
+        {
+          "name": "Isınma",
+          "duration": 180,
+          "reps": 0,
+          "gif": "walk.gif",
+          "instruction": "Kollarınızı sallayarak yürüyün.",
+          "tips": [
+            "Sırtınızı dik tutun",
+            "Kollarınızı sallayın",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Omuz Döndürme",
+          "duration": 0,
+          "reps": 15,
+          "sets": 2,
+          "instruction": "Omuzlarınızı öne ve arkaya doğru döndürün. Bu hareketi 15 kez tekrarlayın.",
+          "tips": [
+            "Hareketi yavaş yapın",
+            "Sırtınızı düz tutun",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Dinlenme",
+          "duration": 15,
+          "reps": 0,
+          "gif": "",
+          "instruction": "Nefes alın.",
+          "break": true
+        },
+        {
+          "name": "Duvar Üzerinden Push-up",
+          "duration": 0,
+          "reps": 8,
+          "sets": 2,
+          "instruction": "Duvara eğilin ve kol kaslarınızı çalıştırın. Eller duvarda, vücut düz bir çizgide olacak şekilde push-up yapın. Bu hareketi 8 kez tekrarlayın.",
+          "tips": [
+            "Sırtınızı düz tutun",
+            "Hareketi yavaş yapın",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Esnetme",
+          "duration": 180,
+          "reps": 0,
+          "gif": "stretch.gif",
+          "instruction": "Kollarınızı ve omuzlarınızı esnetin.",
+          "tips": [
+            "Yavaş hareket edin",
+            "Ağrılı hissettiğinizde durun",
+            "Nefesinizi esnemeyle uyumlu verin"
+          ]
+        }
+      ]
+    },
+    "friday": {
+      "title": "Cuma - Karın ve Bel",
+      "exercises": [
+        {
+          "name": "Isınma",
+          "duration": 180,
+          "reps": 0,
+          "gif": "walk.gif",
+          "instruction": "Yerinde yürüyün.",
+          "tips": [
+            "Sırtınızı dik tutun",
+            "Kollarınızı sallayın",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Duvar Plank",
+          "duration": 20,
+          "reps": 0,
+          "sets": 2,
+          "gif": "plank.gif",
+          "instruction": "Eller duvarda, vücut düz. Karın kaslarınızı sıkın. Duvara yaslanın ve ellerinizi duvara koyun. Ayaklarınızı geriye doğru uzatın ve vücudunuzu düz bir çizgi halinde tutun. Karın kaslarınızı sıkın ve bu pozisyonu 20 saniye boyunca koruyun.",
+          "tips": [
+            "Sırtınızı düz tutun",
+            "Gözlerinizi duvara odaklayın",
+            "Nefesinizi düzenli tutun"
+          ]
+        },
+        {
+          "name": "Dinlenme",
+          "duration": 15,
+          "reps": 0,
+          "gif": "",
+          "instruction": "Nefes alın.",
+          "break": true
+        },
+        {
+          "name": "Yatay Karın",
+          "duration": 0,
+          "reps": 10,
+          "sets": 2,
+          "instruction": "Sırt üstü yatın ve dizlerinizi bükün. Yavaşça yukarı kalkın. Bu hareketi 10 kez tekrarlayın.",
+          "tips": [
+            "Sırtınızı yere yapıştırın",
+            "Hareketi yavaş yapın",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Esnetme",
+          "duration": 180,
+          "reps": 0,
+          "gif": "stretch.gif",
+          "instruction": "Belinizi esnetin.",
+          "tips": [
+            "Yavaş hareket edin",
+            "Ağrılı hissettiğinizde durun",
+            "Nefesinizi esnemeyle uyumlu verin"
+          ]
+        }
+      ]
+    },
+    "saturday": {
+      "title": "Cumartesi - Hafif Yürüyüş ve Esneme",
+      "exercises": [
+        {
+          "name": "Yürüyüş",
+          "duration": 300,
+          "reps": 0,
+          "gif": "walk.gif",
+          "instruction": "Ev içinde veya bahçede hafif tempoda yürüyün.",
+          "tips": [
+            "Sırtınızı dik tutun",
+            "Kollarınızı sallayın",
+            "Nefesinizi düzenli verin"
+          ]
+        },
+        {
+          "name": "Esnetme",
+          "duration": 300,
+          "reps": 0,
+          "gif": "stretch.gif",
+          "instruction": "Tüm vücutta esneme hareketleri yapın.",
+          "tips": [
+            "Yavaş hareket edin",
+            "Ağrılı hissettiğinizde durun",
+            "Nefesinizi esnemeyle uyumlu verin"
+          ]
+        }
+      ]
+    },
+    "sunday": {
+      "title": "Pazar - Dinlenme Günü",
+      "exercises": [
+        {
+          "name": "Dinlenme",
+          "duration": 600,
+          "reps": 0,
+          "gif": "",
+          "instruction": "Bugün vücudunuzun dinlenmesine izin verin.",
+          "break": true
+        }
+      ]
+    }
+  }
+}

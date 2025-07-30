@@ -1,0 +1,57 @@
+[30-Jul-2025 08:22:18 Europe/Istanbul] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u7544710/lineandframe.com/fit40/config/db.php on line 7
+[30-Jul-2025 09:03:01 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 9
+[30-Jul-2025 17:32:28 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 9
+[30-Jul-2025 17:32:32 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 9
+[30-Jul-2025 17:34:14 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 9
+[30-Jul-2025 17:45:23 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 9
+[30-Jul-2025 17:47:45 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 9
+[30-Jul-2025 17:51:38 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 9
+[30-Jul-2025 17:54:06 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 9
+[30-Jul-2025 17:54:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 9
+[30-Jul-2025 18:05:54 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 18
+[30-Jul-2025 18:05:55 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 18
+[30-Jul-2025 18:05:56 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 18
+[30-Jul-2025 18:05:58 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/index.php on line 18
+[30-Jul-2025 18:08:50 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/u7544710/lineandframe.com/fit40/report/generate_pdf.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u7544710/lineandframe.com/fit40/report/generate_pdf.php on line 9
